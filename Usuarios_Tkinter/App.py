@@ -5,6 +5,20 @@ class Application:
     def __init__(self, master=None):
         # Define a fonte padrão para o aplicativo
         self.fonte = ("Verdana", "8")
+    
+        # Define o título da janela principal
+        master.title("Sistema de Gerenciamento de Usuários")
+
+        # Adiciona um ícone à janela
+        master.iconbitmap("C:/Users/SUPORTE 03/Desktop/EU/Eu (Carlos)/Cod_Dev/Usuario_Tkinter/icone.ico")
+
+        # Fonte padrão
+        self.fonte = ("Verdana", "8")
+
+        # Container 1
+        self.container1 = Frame(master)
+        self.container1["pady"] = 10
+        self.container1.pack()
 
     # Container 1
     # Criação de containers para organizar a interface gráfica
