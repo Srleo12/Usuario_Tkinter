@@ -17,7 +17,7 @@ Este é um projeto de exemplo que implementa uma interface gráfica simples usan
 1. Clonar o Repositório
 - Primeiro, clone o repositório do GitHub para o seu ambiente local:
 ``` bash
-git clone https://github.com/Srleo12/Usuario_Tkinter/edit/main/Usuario_Tkinter.git
+git clone https://github.com/Srleo12/Usuario_Tkinter/Usuario_Tkinter.git
 cd Usuario_Tinter
 ```
 2. Criar um Ambiente Virtual
